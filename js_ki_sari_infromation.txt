@@ -1,0 +1,168 @@
+backend with sir vishwa mohan  (Physics Wallah).
+
+
+                backend or frontend
+
+
+backend hota kiya h?
+backend kisi b web ki server side yaani us main data kesey store h kese organize h or client side ki her cheez perfectly kam kr rhi h k ni
+ya sab ensure krta h.
+
+backend q hota h?
+is liye hota h q k front jabhi connect krega matlab web dynamic tabhi banegi jab us mai backend hoga jabhi user usy use krskega
+us main read or write donon krskega.
+
+
+websites or web apps same hi h website static h or web apps dynamic h dynamic yani read and write both or static yaani bsss read.
+
+website banaty huey hum 3 tier architecture par kam krty h yani k aik front end hoga aik backend hoga or aik database hoga.
+ 
+
+backend her jagh same h yaani chahey tv par ho browser mobile screen laptop par ho her jagh par open hoga but uska backend aik hi h jo sab 
+k sath initialize hoga.
+
+
+  framework ya hota h k jab bohat sarey log milker aik project par kaam krtey h tou redundancy na ho yaani k bekar ki chezen koi na ho sab
+  aik dusrey k sath easily collaborate krsken tou is liye framework use hota h.
+
+  backend banany ki b 3 layers h
+   
+    *routes   ---> routes ka kaam receptionist jesa h jese receptionist ap ki id ticket check krti h request accept kerti h aisay hi routes ha 
+                   woh b yahi same kaam karty h apki request acknowledge krty h. 
+   
+    *controllers---> controllers ka kaam waiters ki tarah hota h jesey waiters sab kaam dekhty h customer ka experience kesa rha hotel main
+                     us say achy say baat krty h aisay hi controllers krty h jab routers request accept krty h phr woh controllers ko control
+                     dety h ab sara control controllers k pass h controllers mai logics hoti h computations data ki crunching munching sab hoti h
+
+. 
+    *models---> models ka kam chefs ki tarah hota h jesey chef hotel main khana banany k liye hota h aisay hi models database ko sambhlty h
+                data retrieve krwana data save krwana ya sab models dekhty h.  
+
+     
+
+
+  backend banaty time hum ya chezen dekhty h k pehly hum kiya banaenge jesey hum pehly routes banaege models banaege ya controllers banaenge
+  tou hum pehly models banaege q k models kisi par depend ni krty h pehly models banaege yani database pehly tayyar krlenge phr hum contollers
+  banaege phir routes banege.
+
+  
+
+  is course ko krny k baad hum sekhlenge k rest api's kiya h security, token base auth, postman, db schema ya sab kiya hota h.  
+
+ 
+    learning again js few concepts:
+what are variables?
+variables are like a boxes we store data in them.
+
+
+data types 2 hoti h 
+primitive data types(ya immutable yani non-changeable jo change ni hota h.)
+
+non-primitive data types(ya mutable yani changeable hota h.)
+
+8 data types hoti h
+primitives(is main jesy numbers or strings wghera)
+non-primitives(is main jesy objects wghera)
+
+Objects in Js
+objects 2000 k ander aye thy objects ya bataty h k real world ki chezon ki koi na koi entities h un k 
+attributes h or unko represent krny k liye objects ka istamal hota h.
+
+
+
+operators
+
+4+6=10
+yahan 4 or 6 operands h or + operator h or jo inka answer h woh operation h.
+
+
+
+Functions in Js.
+apky pas aik problem h apko uska solution pata h ap aik logic banaker function k through woh problem
+solve krskty ho or future mai jab b woh problemaye ap us function ko reuse krskty ho.
+
+
+INTREVIWERS SPECIALLY ASKED QUESTION.
+What is IIFE?
+Immediately invoked function expression.
+(function hello(){
+console.log("Hello World")
+})() yaha par ya dikh raha h k function ka koi naam ni h tou aisay function ko anonymous function kehty h
+or ya hota h IIFE.
+ya functoin hum bs jab use krty h jab hamen woh function aik hi bar chaiye ho bar bar ni use krna ho.
+
+
+
+scopes in js
+global scope
+(function scope 
+block scope) in ko hum local b kehskty h function or block ko.
+
+
+
+Synchronous and Asynchronous in Js.
+Synchronous yaani jis main blocking h yani her kam aik aik kr k hoga for example aik problem ko
+solve krny k 3 treeky h hm her way ko line by line krege.
+
+Asynchronous mai aisa ni h jo kam ziada time lega hm agly kam pr chly jaege bina time zaya kiye
+or jab tk woh kam hoga hm baad mai zada time leny waly kam ko krlege.
+js is master in asynchronous.
+
+js mai kisi b cheez ko execute hona h tou usy callstack k ander aana prega.(IMPORTANT)
+ 
+
+Global execution context(GEC)
+yani her cheez ko execute hony k liye callstack mai jana h phr jesy jesy execution hoti jyegi aik aik 
+cheez ki woh phr callstack say pop out hoti jyegi.jab sri execution hojegi tou GEC b callstack sy
+bahr hojyega yani pop out hojega woh b.
+last in, first out
+
+
+
+interviewers k favorite question hoty h in topics mai say.
+*promises
+*async/await
+*error handling.
+
+promise futuristic hota h yani ya tou woh reject hoga ya accept accept hoga tb b promise complete
+or reject hoga tb b promise complete.
+promise ko represent krta h promise object.
+
+promise banny k bd woh pending mai hota h phr woh aaya ya tou reject hota h ya resolve hota h 
+ir inhi resolve,reject ko hm actions b kehty h.
+
+
+
+promises ka istamal
+jab b kisi app mai app database sy data fetch krta h woh asynchronously krta h.
+
+jb b app database ko data ki request krta h us waqt pehly whan aik promise aata h.
+ab agr database data dega tou hm .then ki logic likhenge.
+data ni ayega tou catch ki logic likhege.
+promises hm asynchronous programming mai use krskty h.
+
+agr hm chahty h k sary promises fulfil hojye phr hm agy brhe tou hm promise k all function ko use
+krege
+
+or agr hum chahty h k srey promises mai say akoi b sai hojye tou hm agy brhe tou hm any use krty h.
+
+
+promises boht mushkil thy tou js mai async/await ka concept introduce krwya gya.
+
+
+
+
+error handling in js.
+error and exception
+error woh h jis k liye ap kuch ni krskty yani ager apki power off hui yani light gyi tou system crash
+or ab ya error h is k liye ap kuch ni krskty
+
+exception woh h jis ko ap programatically handle krskty h tou woh exception h jis ka solution h.
+or hm care b exception ki krty h q k woh resolve hoskty h isliye.
+
+
+
+the syntax within a programming language that is designed to make things easier to read or express
+is called syntactical sugar.
+
+
